@@ -51,6 +51,7 @@ h1{
           color: black;
           display: block;
       }
+      /* this is for the stripes*/
       hr {
         height: 5px;
         background-color: white;
