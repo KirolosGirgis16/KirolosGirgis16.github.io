@@ -1,8 +1,13 @@
 body {
-    background-color: rgb(0, 78, 124);}
+    background-color: rgb(46, 46, 46);}
 
 body{
   color: white;
+}
+
+li{
+  text-align: center;
+  list-style-position: inside;
 }
 
 h1{
@@ -30,15 +35,15 @@ h1{
   
   .livertical a {
     display: block;
-    color: #000;
+    color:white;
     padding: 8px 16px;
     text-decoration: none;
     border: 1px solid rgb(255, 255, 255);
   }
   
   .livertical a.active {
-    background-color: grey;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   .livertical a:hover:not(.active) {
@@ -66,13 +71,13 @@ h1{
       }
  /* this is for links*/
       a{
-        color:black;
+        color:rgb(255, 255, 255);
       }
       a:active {
         color: grey;
       }
         a:hover {
-          color: white;
+          color: rgb(38, 176, 255);
            /* this was for the  for links*/
         }
         img{
@@ -112,3 +117,30 @@ h1{
           background-color: #111;
         }
       
+       /* for dashboard*/
+        table{
+          background:grey;
+        }
+        
+        td{
+          border: 1px solid rgb(255, 255, 255);
+        }
+
+        thead{
+          background-color: grey;
+          border: 1px solid rgb(255, 255, 255);
+          font-size: 25px;
+        }
+
+        tbody{
+          background-color: rgb(204, 201, 201);
+          border: 1px solid rgb(255, 255, 255);
+        }
+
+        .passed{
+          background-color: greenyellow;
+        }
+
+        .failed{
+          background-color: red;
+        }
