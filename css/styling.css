@@ -144,3 +144,6 @@ h1{
         .failed{
           background-color: red;
         }
+        .nop{
+          background-color: orange;
+        }
