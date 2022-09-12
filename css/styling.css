@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(46, 46, 46);}
+    background-color: rgb(10, 131, 161);}
 
 body{
   color: white;
@@ -95,6 +95,7 @@ h1{
           padding: 0;
           overflow: hidden;
           background-color: grey;
+          border: 1px solid rgb(255, 255, 255);
         }
         
         .horizonli {
@@ -120,6 +121,7 @@ h1{
        /* for dashboard*/
         table{
           background:grey;
+          border: 1px solid rgb(255, 255, 255);
         }
         
         td{
@@ -146,4 +148,8 @@ h1{
         }
         .nop{
           background-color: orange;
+        }
+
+        .progress{
+          width: 100%;
         }
