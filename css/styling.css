@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(0, 57, 71);}
+    background-color: rgb(78, 78, 78);
+  }
 
 body{
   color: white;
@@ -47,7 +48,7 @@ h1{
   }
   
   .livertical a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(53, 52, 52);
     color: white;
   }
 /* this was for the hor nav*/
