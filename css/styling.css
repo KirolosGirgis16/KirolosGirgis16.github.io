@@ -162,3 +162,14 @@ h1{
     background-color: rgb(78, 78, 78);
     color: white;
         }
+
+        .pblog{
+          text-align: left;
+    margin-left: 0%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4%;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(139, 138, 138);
+        }
