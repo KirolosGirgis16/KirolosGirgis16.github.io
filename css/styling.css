@@ -16,14 +16,13 @@ h1{
     margin-left: 27%;
     font-size: 30px;
     text-align: center;
-    margin-top: 4%;
-
+    margin-top: 5%;
   }
 
   /* this is for the hor nav*/
  .ulvertical {
     list-style-type: none;
-    margin-top: 0%;
+    margin-top: -1%;
     padding: 0;
     width: 25%;
     background-color: grey;
@@ -153,4 +152,13 @@ h1{
 
         .progress{
           width: 100%;
+        }
+        .psmall{
+          text-align: left;
+    margin-left: 0%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4%;
+    background-color: rgb(78, 78, 78);
+    color: white;
         }
