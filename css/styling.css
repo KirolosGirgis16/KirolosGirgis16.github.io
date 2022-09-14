@@ -1,16 +1,14 @@
+/*this is for the whole page*/
 body {
     background-color: rgb(78, 78, 78);
-  }
-
-body{
   color: white;
 }
-
+/*this is for the lists*/
 li{
   text-align: center;
   list-style-position: inside;
 }
-
+/*this is to make the text for the h1*/
 h1{
     text-align: left;
     margin-left: 11%;
@@ -89,7 +87,7 @@ h1{
           margin-left: auto;
           margin-right: auto;
         }
-        /*test for aside menu*/
+        /*this is for aside menu*/
         .horizonul {
           position: fixed;
           top: 0;
@@ -155,10 +153,12 @@ h1{
         .nop{
           background-color: orange;
         }
-
+/*this is for the progress bar*/
         .progress{
           width: 100%;
         }
+
+        /* this is for titles*/
         .psmall{
           text-align: left;
     margin-left: 0%;
@@ -169,6 +169,7 @@ h1{
     color: white;
         }
 
+        /*this is for the blog part to make them another color*/
         .pblog{
           text-align: left;
     margin-left: 0%;
@@ -223,11 +224,11 @@ h1{
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(179, 179, 179);
         }
-
+/*this is to make the stripes fill the screen*/
         hr{
           margin-left: -20%;
         }
-
+/*this is to make the table for NSBA*/
         .table2{
           margin-left: 15%;
         }
@@ -236,7 +237,7 @@ h1{
 background-color: rgb(177, 176, 176);
 padding: 3%;
       }
-
+/*this is for the list at my profile*/
       .ulprofile{
         margin-left: -5%;
         border: 1px solid rgb(255, 255, 255);

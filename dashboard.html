@@ -10,7 +10,7 @@
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
             <title>Dashboard</title>
         </head>
-
+        <!--navbar-->
         <nav>
             <ul class="ulvertical">
                 <li class="livertical"><a href="index.html">Homepage</a></li>
@@ -20,19 +20,30 @@
                 <li class="livertical"><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
+        <!--links-->
         <header>
             <ul class="horizonul">
-                <li class= "horizonli"><a class= "horizonli a" href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/EN/6.-Regulations-Study-Programmes/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf" target="_blank">Course and Examination Regulations 2022-2023</a></li>
-                <li class= "horizonli"><a class= "horizonli a" href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf" target="_blank">The Implementation Regulations</a></li>
-                <li class= "horizonli"><a class= "horizonli a" href="https://learn.hz.nl/my/" target="_blank">Learn environment</a></li>
-                <li class= "horizonli"><a class= "horizonli a" href="https://teams.microsoft.com/_?lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/International?threadId=19:ca826369e55e492aa1efd2016b2fcbbe@thread.skype&ctx=channel" target="_blank">Teams</a></li>
-                <li class= "horizonli"><a class= "horizonli a" href="https://learn.hz.nl/grade/report/overview/index.php" target="_blank">Study progress</a></li>
-                <li class= "horizonli"><a class= "horizonli a" href="https://github.com/HZ-HBO-ICT" target="_blank">Github environment</a></li>
+                <li class="horizonli"><a class="horizonli a"
+                        href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/EN/6.-Regulations-Study-Programmes/CER-HZ-Bachelor-full-time-2022-2023-DEF-June-13.pdf"
+                        target="_blank">Course and Examination Regulations 2022-2023</a></li>
+                <li class="horizonli"><a class="horizonli a"
+                        href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
+                        target="_blank">The Implementation Regulations</a></li>
+                <li class="horizonli"><a class="horizonli a" href="https://learn.hz.nl/my/" target="_blank">Learn
+                        environment</a></li>
+                <li class="horizonli"><a class="horizonli a"
+                        href="https://teams.microsoft.com/_?lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/conversations/International?threadId=19:ca826369e55e492aa1efd2016b2fcbbe@thread.skype&ctx=channel"
+                        target="_blank">Teams</a></li>
+                <li class="horizonli"><a class="horizonli a" href="https://learn.hz.nl/grade/report/overview/index.php"
+                        target="_blank">Study progress</a></li>
+                <li class="horizonli"><a class="horizonli a" href="https://github.com/HZ-HBO-ICT" target="_blank">Github
+                        environment</a></li>
             </ul>
         </header>
 
         <h1>Dashboard</h1>
         <hr>
+
         </body>
     </article>
     <h2>
@@ -191,9 +202,9 @@
 
             </tbody>
         </table>
-        
+
         <br><br>
-        
+        <!--had to make a class so the table aligns in the middle-->
         <table class="table2">
             <thead>
                 <tr>
@@ -222,21 +233,19 @@
                     <td class="passed">Graduated and a Propedeuse Certificate</td>
                 </tr>
                 <thead>
+                    <tr>
+                        <td colspan="3">Progress for NBSA</td>
+                    </tr>
+                </thead>
                 <tr>
-                    <td colspan="3">Progress for NBSA</td>
+                    <!--added a progress bar-->
+                    <td colspan="3"><progress class="progress" value="20" max="60"></td>
                 </tr>
-            </thead>
-            <tr>
-                <td colspan="3"><progress class="progress" value = "20" max = "60"></td>
-            </tr>
             </tbody>
 
         </table>
     </h2>
 
-
-        <!-- Trying with the downchart-->
-    
 </main>
 
 </html>
