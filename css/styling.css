@@ -236,3 +236,11 @@ h1{
 background-color: rgb(177, 176, 176);
 padding: 3%;
       }
+
+      .ulprofile{
+        margin-left: -5%;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 3%;
+        background-color: rgb(121, 120, 120);
+        
+      }
