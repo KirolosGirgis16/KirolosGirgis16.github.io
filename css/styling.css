@@ -22,10 +22,10 @@ h1{
   /* this is for the hor nav*/
  .ulvertical {
     list-style-type: none;
-    margin-top: 0%;
+    margin-top: -1.5%;
     padding: 0;
     width: 9%;
-    background-color: grey;
+    background-color: rgb(160, 159, 159);
     position: fixed;
     height: 25,5%;
     overflow: auto;
@@ -98,7 +98,7 @@ h1{
           margin: 0;
           padding: 0;
           overflow: hidden;
-          background-color: grey;
+          background-color: rgb(41, 41, 41);
           border: 1px solid rgb(255, 255, 255);
           margin-left: -1%;
         }
@@ -120,13 +120,14 @@ h1{
         }
         
         .horizonli a:hover {
-          background-color: #111;
+          background-color: rgb(114, 113, 113);
         }
       
        /* for dashboard*/
         table{
           background:grey;
           border: 1px solid rgb(255, 255, 255);
+          margin-left: 3%;
         }
         
         td{
@@ -230,4 +231,8 @@ h1{
         .table2{
           margin-left: 15%;
         }
-    
+    /*this is for the feedback*/
+      .pfeed{
+background-color: rgb(177, 176, 176);
+padding: 3%;
+      }
